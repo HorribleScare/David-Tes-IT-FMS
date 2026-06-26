@@ -1,0 +1,24 @@
+{
+  "name": "home-test",
+  "version": "1.0.0",
+  "description": "Home Test — Fullstack Software Engineer",
+  "main": "main.ts",
+  "scripts": {
+    "start": "npx ts-node main.ts",
+    "check": "npx tsc --noEmit",
+    "be1": "npx ts-node backend/soal_1.ts",
+    "be2": "npx ts-node backend/soal_2.ts",
+    "be3": "npx ts-node backend/soal_3.ts",
+    "be4": "npx ts-node backend/soal_4.ts",
+    "fe": "npx vite",
+    "fe:build": "npx vite build",
+    "verify": "npx ts-node verify.ts",
+    "test": "npx ts-node tests/run_all.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.0"
+  }
+}
